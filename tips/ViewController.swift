@@ -12,7 +12,8 @@ import QuartzCore
 class ViewController: UIViewController, UIPickerViewDelegate {
     
     
-
+    //holds the resultant stuff
+    @IBOutlet weak var resultView: UIView!
 
     //segmented index from tip percentage option
     @IBOutlet weak var tipControl: UISegmentedControl!
@@ -69,6 +70,7 @@ class ViewController: UIViewController, UIPickerViewDelegate {
         tipLabel.text = String(format: "$%0.2f", tip)
         totalLabel.text = String(format: "$%0.2f", total)
         splitLable.text = String(format: "$%0.2f", split)
+        resultView.hidden = false
         
     }
     
@@ -108,6 +110,7 @@ class ViewController: UIViewController, UIPickerViewDelegate {
         totalLabel.text = String(format: "$%0.2f", total)
         splitLable.text = String(format: "$%0.2f", split)
         
+        resultView.hidden = false;
     }
   
 
@@ -122,6 +125,7 @@ class ViewController: UIViewController, UIPickerViewDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         //the array that will be used for the number of people
         
+        resultView.hidden = true
         
         tipLabel.text = "$0.00"
         totalLabel.text = "$0.00"
