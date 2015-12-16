@@ -1,5 +1,6 @@
 //
 //  SecondViewController.swift
+// Displays the settings screen for the app
 //  tips
 //
 //  Created by Varun Goel on 12/12/15.
