@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F2246661C1C7DF500C0BE55 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2246651C1C7DF500C0BE55 /* SecondViewController.swift */; };
 		2F2B1A9B1C0EB5A80096D582 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2B1A9A1C0EB5A80096D582 /* AppDelegate.swift */; };
 		2F2B1A9D1C0EB5A80096D582 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2B1A9C1C0EB5A80096D582 /* ViewController.swift */; };
 		2F2B1AA01C0EB5A80096D582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F2B1A9E1C0EB5A80096D582 /* Main.storyboard */; };
 		2F2B1AA21C0EB5A80096D582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F2B1AA11C0EB5A80096D582 /* Assets.xcassets */; };
 		2F2B1AA51C0EB5A80096D582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F2B1AA31C0EB5A80096D582 /* LaunchScreen.storyboard */; };
 		2F2B1AB01C0EB5A80096D582 /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2B1AAF1C0EB5A80096D582 /* tipsTests.swift */; };
+		2FA36CE41C17B1CB00DA00F6 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA36CE31C17B1CB00DA00F6 /* OtherViewController.swift */; };
+		2FC8A5851C17A712000962FE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC8A5841C17A712000962FE /* SettingsViewController.swift */; };
+		2FFCBCA71C179ADC00D3E85B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FFCBCA61C179ADC00D3E85B /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F2246651C1C7DF500C0BE55 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = tips/SecondViewController.swift; sourceTree = "<group>"; };
 		2F2B1A971C0EB5A80096D582 /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F2B1A9A1C0EB5A80096D582 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F2B1A9C1C0EB5A80096D582 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		2F2B1AAB1C0EB5A80096D582 /* tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F2B1AAF1C0EB5A80096D582 /* tipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsTests.swift; sourceTree = "<group>"; };
 		2F2B1AB11C0EB5A80096D582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FA36CE31C17B1CB00DA00F6 /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OtherViewController.swift; path = tips/OtherViewController.swift; sourceTree = "<group>"; };
+		2FC8A5841C17A712000962FE /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = tips/SettingsViewController.swift; sourceTree = "<group>"; };
+		2FFCBCA61C179ADC00D3E85B /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "tips/Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 		2F2B1A8E1C0EB5A80096D582 = {
 			isa = PBXGroup;
 			children = (
+				2F2246651C1C7DF500C0BE55 /* SecondViewController.swift */,
+				2FA36CE31C17B1CB00DA00F6 /* OtherViewController.swift */,
+				2FC8A5841C17A712000962FE /* SettingsViewController.swift */,
+				2FFCBCA61C179ADC00D3E85B /* Launch Screen.storyboard */,
 				2F2B1A991C0EB5A80096D582 /* tips */,
 				2F2B1AAE1C0EB5A80096D582 /* tipsTests */,
 				2F2B1A981C0EB5A80096D582 /* Products */,
@@ -147,6 +159,11 @@
 					2F2B1A961C0EB5A80096D582 = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = 4H3VFGSD4M;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					2F2B1AAA1C0EB5A80096D582 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -180,6 +197,7 @@
 			files = (
 				2F2B1AA51C0EB5A80096D582 /* LaunchScreen.storyboard in Resources */,
 				2F2B1AA21C0EB5A80096D582 /* Assets.xcassets in Resources */,
+				2FFCBCA71C179ADC00D3E85B /* Launch Screen.storyboard in Resources */,
 				2F2B1AA01C0EB5A80096D582 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,7 +217,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F2B1A9D1C0EB5A80096D582 /* ViewController.swift in Sources */,
+				2FA36CE41C17B1CB00DA00F6 /* OtherViewController.swift in Sources */,
 				2F2B1A9B1C0EB5A80096D582 /* AppDelegate.swift in Sources */,
+				2F2246661C1C7DF500C0BE55 /* SecondViewController.swift in Sources */,
+				2FC8A5851C17A712000962FE /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
