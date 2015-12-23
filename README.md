@@ -31,6 +31,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough 
 
 Here's a walkthrough:
+![Demo](http://i.imgur.com/7n3t9CG.gif)
+
 <a>http://imgur.com/gallery/7n3t9CG</a>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
