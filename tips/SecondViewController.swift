@@ -85,8 +85,8 @@ class SecondViewController: UIViewController {
         let intValue = defaults.valueForKey("defaultTipPercentageInteger")
       
        
-        print("before")
-        print(tipSegments.selectedSegmentIndex)
+       // print("before")
+        //print(tipSegments.selectedSegmentIndex)
         
         //resets the segment for the default tip percentages
         tipSegments.selectedSegmentIndex = percentages.indexOf((intValue?.description)!)!
@@ -95,11 +95,11 @@ class SecondViewController: UIViewController {
         //reflect the change in default tip perecentages
         //defaultTip.text = percentages[tipSegments.selectedSegmentIndex]
         
-        print("after")
-        print(tipSegments.selectedSegmentIndex )
+       // print("after")
+        //print(tipSegments.selectedSegmentIndex )
         
-        print("debug check")
-        print(intValue)
+    //    print("debug check")
+      //  print(intValue)
         
     }
     
