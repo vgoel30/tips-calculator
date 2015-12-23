@@ -6,6 +6,9 @@ Submitted by: Varun Goel
 
 Time spent: 10-15 hours spent in total
 
+##IMPORTANT
+TipViewController is named ViewController and SettingsViewController is named SecondViewController
+
 ## User Stories
 
 The following **required** functionality is complete:
